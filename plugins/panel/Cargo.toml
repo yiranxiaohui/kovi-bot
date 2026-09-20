@@ -1,0 +1,19 @@
+[package]
+name = "kovi-plugin-panel"
+version = "0.0.1"
+edition = "2024"
+description = "kovi plugin: Web 管理面板(运行时插件管理)"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+kovi = ">=0.13"
+axum = "0.7"
+rust-embed = { version = "8", features = ["debug-embed"] }
+mime_guess = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+http-body-util = "0.1"
+
+[dev-dependencies]
+tempfile = "3"

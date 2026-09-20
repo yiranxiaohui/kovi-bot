@@ -1,0 +1,80 @@
+[kovi-plugin-60s]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-60s.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-farm]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-farm.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-cmd]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-cmd.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-meme]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-meme.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-ai]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-ai.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-help]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-help.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-panel]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-panel.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-sts2-update]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-sts2-update.access_list]
+friends = []
+groups = []
+
+[kovi-plugin-cs2-stats]
+enable_on_startup = true
+access_control = false
+list_mode = "WhiteList"
+
+[kovi-plugin-cs2-stats.access_list]
+friends = []
+groups = []

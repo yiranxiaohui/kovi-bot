@@ -1,0 +1,24 @@
+[package]
+name = "kovi-bot"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["plugins/help", "plugins/ai", "plugins/panel", "plugins/sts2-update", "plugins/cs2-stats"]
+
+[profile.release]
+# The statically linked meme/graphics stack produces a large symbol table. Strip it so the
+# application layer stays below the registry proxy's request-size limit.
+strip = "symbols"
+
+[dependencies]
+kovi = "0.13.0"
+kovi-onebot = "0.13.1"
+kovi-plugin-cmd = { version = "0.4.0", features = ["onebot"] }
+kovi-plugin-60s = "0.1.8"
+kovi-plugin-meme = "0.1.5"
+kovi-plugin-ai = { path = "plugins/ai" }
+kovi-plugin-help = { path = "plugins/help" }
+kovi-plugin-panel = { path = "plugins/panel" }
+kovi-plugin-sts2-update = { path = "plugins/sts2-update" }
+kovi-plugin-cs2-stats = { path = "plugins/cs2-stats" }

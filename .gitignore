@@ -1,0 +1,6 @@
+/target
+.idea
+data
+Cargo.lock
+plugins/panel/frontend/node_modules
+plugins/panel/frontend/dist/assets

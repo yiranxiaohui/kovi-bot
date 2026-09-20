@@ -1,0 +1,10 @@
+[config]
+main_admin = 1
+admins = []
+debug = false
+
+[server]
+host = "10.0.12.1"
+port = 3001
+access_token = "${ONEBOT_ACCESS_TOKEN}"
+secure = false

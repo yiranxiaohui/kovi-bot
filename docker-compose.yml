@@ -1,0 +1,9 @@
+services:
+  kovi-bot:
+    image: ghcr.io/yiranxiaohui/kovi-bot:latest
+    restart: always
+    container_name: kovi-bot
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data

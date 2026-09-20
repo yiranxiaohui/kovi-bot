@@ -1,0 +1,12 @@
+[package]
+name = "kovi-plugin-help"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "kovi_plugin_help"
+path = "src/lib.rs"
+
+[dependencies]
+kovi = "0.13"
+kovi-onebot = "0.13"
